@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ansökan: Marketing AI Operator - Montrose</title>
+<title>Ansökan: Marketing AI Operator - Didrik Liljeström</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -28,8 +28,8 @@
     background: var(--bg);
     color: var(--text-primary);
     font-family: 'DM Sans', -apple-system, sans-serif;
-    font-size: 15.5px;
-    line-height: 1.7;
+    font-size: 15px;
+    line-height: 1.6;
     font-weight: 300;
     min-height: 100vh;
     -webkit-font-smoothing: antialiased;
@@ -45,25 +45,25 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 56px;
-    padding-bottom: 32px;
+    margin-bottom: 48px;
+    padding-bottom: 24px;
     border-bottom: 1px solid var(--border);
   }
 
   .logo-area {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 12px;
   }
 
   .logo-area img {
-    height: 22px;
+    height: 20px;
     opacity: 0.9;
   }
 
   .badge {
-    font-size: 11px;
-    font-weight: 500;
+    font-size: 10px;
+    font-weight: 600;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--accent-light);
@@ -75,32 +75,23 @@
   .date {
     font-size: 13px;
     color: var(--text-muted);
-    font-weight: 400;
   }
 
   .title-block {
-    margin-bottom: 48px;
+    margin-bottom: 40px;
   }
 
   .title-block h1 {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 600;
     letter-spacing: -0.02em;
-    line-height: 1.2;
-    margin-bottom: 16px;
-    color: var(--text-primary);
+    margin-bottom: 12px;
   }
 
   .author-row {
     display: flex;
     align-items: center;
     gap: 12px;
-    flex-wrap: wrap;
-  }
-
-  .author-name {
-    font-size: 15px;
-    font-weight: 500;
     color: var(--text-secondary);
   }
 
@@ -108,10 +99,7 @@
     font-size: 13px;
     color: var(--accent-light);
     text-decoration: none;
-    opacity: 0.85;
-    transition: opacity 0.2s;
   }
-  .author-link:hover { opacity: 1; }
 
   .divider-dot {
     width: 3px;
@@ -128,13 +116,11 @@
 
   .letter-body p {
     color: var(--text-secondary);
-    font-weight: 300;
   }
 
   .greeting {
     color: var(--text-primary) !important;
-    font-weight: 400 !important;
-    font-size: 16px;
+    font-weight: 500 !important;
   }
 
   .skills-grid {
@@ -148,59 +134,48 @@
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 12px;
-    padding: 18px 16px;
-    transition: border-color 0.25s, background 0.25s;
-  }
-
-  .skill-card:hover {
-    border-color: var(--border-accent);
-    background: var(--bg-subtle);
+    padding: 16px;
   }
 
   .skill-card .icon-bar {
-    width: 24px;
+    width: 20px;
     height: 3px;
-    border-radius: 2px;
     background: var(--accent);
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
 
   .skill-card h3 {
     font-size: 13px;
     font-weight: 600;
     color: var(--text-primary);
-    margin-bottom: 6px;
-    letter-spacing: -0.01em;
+    margin-bottom: 4px;
   }
 
   .skill-card p {
-    font-size: 12.5px;
+    font-size: 12px;
     color: var(--text-muted) !important;
-    line-height: 1.5;
+    line-height: 1.4;
   }
 
   .contrib-section {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 28px 24px;
+    padding: 24px;
     margin: 8px 0;
   }
 
   .contrib-section h2 {
     font-size: 14px;
     font-weight: 600;
-    color: var(--text-primary);
-    margin-bottom: 18px;
-    letter-spacing: -0.01em;
+    margin-bottom: 16px;
   }
 
   .contrib-item {
     display: flex;
     gap: 12px;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
   }
-  .contrib-item:last-child { margin-bottom: 0; }
 
   .contrib-dot {
     width: 6px;
@@ -211,26 +186,15 @@
     flex-shrink: 0;
   }
 
-  .contrib-item strong {
-    color: var(--text-primary);
-    font-weight: 500;
-  }
-
   .contrib-item p {
-    font-size: 14px !important;
-    color: var(--text-secondary) !important;
-    line-height: 1.6;
+    font-size: 13.5px !important;
+    line-height: 1.5;
   }
 
   .signoff {
-    margin-top: 12px;
-    padding-top: 32px;
+    margin-top: 24px;
+    padding-top: 24px;
     border-top: 1px solid var(--border);
-  }
-
-  .signoff p {
-    color: var(--text-primary) !important;
-    font-weight: 400 !important;
   }
 
   .signoff .name {
@@ -239,50 +203,15 @@
     margin-top: 4px;
   }
 
-  .footer {
-    margin-top: 56px;
-    padding-top: 24px;
-    border-top: 1px solid var(--border);
-    text-align: center;
-    font-size: 12px;
-    color: var(--text-muted);
-  }
-
-  .footer a {
-    color: var(--text-muted);
-    text-decoration: none;
-    transition: color 0.2s;
-  }
-  .footer a:hover { color: var(--accent-light); }
-
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(16px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  .header { animation: fadeUp 0.5s ease-out both; }
-  .title-block { animation: fadeUp 0.5s ease-out 0.08s both; }
-  .letter-body > *:nth-child(1) { animation: fadeUp 0.4s ease-out 0.15s both; }
-  .letter-body > *:nth-child(2) { animation: fadeUp 0.4s ease-out 0.2s both; }
-  .letter-body > *:nth-child(3) { animation: fadeUp 0.4s ease-out 0.25s both; }
-  .skills-grid { animation: fadeUp 0.5s ease-out 0.3s both; }
-  .letter-body > *:nth-child(5) { animation: fadeUp 0.4s ease-out 0.35s both; }
-  .contrib-section { animation: fadeUp 0.5s ease-out 0.4s both; }
-  .letter-body > *:nth-child(7) { animation: fadeUp 0.4s ease-out 0.45s both; }
-  .signoff { animation: fadeUp 0.4s ease-out 0.55s both; }
-
-  @media (max-width: 540px) {
-    .wrapper { padding: 40px 20px 60px; }
-    .title-block h1 { font-size: 26px; }
-    .skills-grid { grid-template-columns: 1fr; }
-    .header { flex-direction: column; align-items: flex-start; gap: 12px; }
+  @media print {
+    body { background: var(--bg) !important; -webkit-print-color-adjust: exact; }
+    .wrapper { padding: 40px; }
   }
 </style>
 </head>
 <body>
 
 <div class="wrapper">
-
   <div class="header">
     <div class="logo-area">
       <img src="https://cdn.prod.website-files.com/665d843245a09dc69c336e03/665d8623577dc9756f8116a1_Vector.svg" alt="Montrose">
@@ -296,67 +225,59 @@
     <div class="author-row">
       <span class="author-name">Finans · Psykologi · Digital tillväxt</span>
       <span class="divider-dot"></span>
-      <a class="author-link" href="https://www.linkedin.com/in/didrik-l-261607135/" target="_blank">LinkedIn ↗</a>
+      <a class="author-link" href="https://linkedin.com/in/didrikliljestrom" target="_blank">LinkedIn ↗</a>
     </div>
   </div>
 
   <div class="letter-body">
+    <p class="greeting">Hej,</p>
 
-    <p class="greeting">Hej Karl,</p>
+    <p>Jag söker rollen som Marketing AI Operator eftersom den ligger mycket nära det jag redan arbetar med: att bygga system där AI, data och struktur gör att marknadsföring kan produceras snabbare och mer konsekvent.</p>
 
-    <p>Jag söker rollen som Marketing AI Operator eftersom den ligger i direkt förlängning av det jag redan arbetar med: att bygga system där AI, data och struktur gör att marknadsföring kan produceras snabbare och mer konsekvent. I mitt arbete med digital tillväxt har jag börjat bygga strukturerade AI-workflows för research och contentproduktion där fokus inte ligger på enskilda verktyg, utan på system där kontext och prompts kan återanvändas.</p>
-
-    <p>Jag bifogar två dokument som visar hur jag tänker: ett case där jag byggde ett AI-workflow för kampanjproduktion som resulterade i en tidsreduktion på cirka 85%, samt en designskiss på en AI-driven marketing stack skräddarsydd för Montrose. Med min kombinerade bakgrund inom Accounting & Finance från Lund och Psykologi från Karolinska Institutet närmar jag mig marknadsföring både analytiskt och beteendevetenskapligt.</p>
+    <p>I mitt arbete med digital tillväxt driver jag kampanjer, men parallellt har jag börjat bygga strukturerade AI-workflows för research, contentproduktion och kampanjanalys. Fokus ligger inte på att använda enskilda verktyg, utan på att skapa system där kontext, prompts och arbetsflöden kan återanvändas och förbättras över tid. Jag drivs av att förstå saker på djupet, oavsett om det handlar om en organisation, en psykologisk mekanism, en kampanjstruktur, eller Love Is Blind.</p>
 
     <div class="skills-grid">
       <div class="skill-card">
         <div class="icon-bar"></div>
-        <h3>Finansiell Intelligens</h3>
-        <p>MSc Accounting & Finance. Kapacitet att bygga ett "Context Repository" med korrekt finansiell terminologi.</p>
+        <h3>Finans</h3>
+        <p>Master i Accounting & Finance vid Lunds universitet.</p>
       </div>
       <div class="skill-card">
         <div class="icon-bar"></div>
-        <h3>Beteendepsykologi</h3>
-        <p>Psykologexamen. Förståelse för nudging och beslutsfattande applicerat på prompt engineering.</p>
+        <h3>Psykologi</h3>
+        <p>Examen från Karolinska Institutet. Beteendevetenskaplig analys.</p>
       </div>
       <div class="skill-card">
         <div class="icon-bar"></div>
-        <h3>Systemautomation</h3>
-        <p>Erfarenhet av Make/n8n och server-side tracking för att bygga skalbara kundanskaffningsmaskiner.</p>
+        <h3>Automation</h3>
+        <p>Bygger skalbara system som optimerar beslut i stor skala.</p>
       </div>
     </div>
 
-    <p>Montrose befinner sig i den spännande skärningspunkten mellan investeringar och teknologi. Att ge er marknadsavdelning "nya oanade krafter" genom AI är precis den typ av problem jag vill lösa.</p>
+    <p>Jag bifogar två korta dokument: ett case där jag byggde ett AI-workflow för kampanjproduktion (≈85% tidsreduktion) samt en design på hur en AI-driven marketing stack skulle kunna se ut för Montrose.</p>
 
     <div class="contrib-section">
-      <h2>Hur jag kommer bidra</h2>
+      <h2>Min vision för Montrose</h2>
       <div class="contrib-item">
         <span class="contrib-dot"></span>
-        <p><strong>Systemarkitektur</strong> - Strukturera och ansvara för ett "context repository" som säkerställer hög precision i alla automatiserade flöden[cite: 160, 175].</p>
+        <p><strong>Analytisk skärpa</strong> - Kombinationen av finans och psykologi gör att jag närmar mig marknadsföring både analytiskt och beteendevetenskapligt.</p>
       </div>
       <div class="contrib-item">
         <span class="contrib-dot"></span>
-        <p><strong>Compliance-first AI</strong> - Bygga "compliance gates" som automatiserar riskinformationskontroller och prishantering via variabler[cite: 176, 181].</p>
-      </div>
-      <div class="contrib-item">
-        <span class="contrib-dot"></span>
-        <p><strong>Skalbar produktion</strong> - Implementera workflows som sänker produktionstiden för creatives och copy med upp till 80%[cite: 6, 135].</p>
+        <p><strong>Praktisk tillväxt</strong> - Jag har en solid grund och vill förkovra mig ännu mer praktiskt för att bli en riktig tillgång till ert team.</p>
       </div>
     </div>
 
-    <p>Jag drivs av optimism (#NEVERDOOM) och övertygelsen om att rätt system kan flytta berg. Jag är redo att bygga den setup som gör att ert marknadsteam kan prestera som om ni vore många fler.</p>
+    <p>Montrose är särskilt intressant för mig eftersom ni befinner er i skärningspunkten mellan investeringar, teknologi och användarupplevelse. Rollen ni beskriver, att ge marknadsavdelningen nya krafter genom AI, är precis den typ av problem jag tycker är mest intressant att arbeta med.</p>
+
+    <p>Jag drivs av optimism (#NEVERDOOM) och övertygelsen om att rätt system kan flytta berg. Jag är redo att bygga den setup som gör att Montrose marknadsteam kan prestera som om ni vore många fler.</p>
 
     <div class="signoff">
       <p>Allt gott,</p>
       <p class="name">Didrik Liljeström</p>
+      <p style="font-size: 12px; color: var(--text-muted); margin-top: 8px;">didrik.liljestrom@gmail.com</p>
     </div>
-
   </div>
-
-  <div class="footer">
-    <a href="mailto:didrik.liljestrom@gmail.com">didrik.liljestrom@gmail.com</a>
-  </div>
-
 </div>
 
 </body>
